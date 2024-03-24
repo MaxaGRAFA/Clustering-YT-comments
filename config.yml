@@ -1,0 +1,22 @@
+#Maximum number of comments (minimum value is ~40)
+Max_Comments: 150
+
+
+#Maximum number of threads(the more, the faster the code will execute)
+Max_Threads: 2
+
+
+# You have two algorithms to choose from. They each work in their own way, but in my opinion UMAP looks better.
+Visualization_Method: UMAP #'UMAP' or 'TSNE'.
+
+
+#gives an 'additional tool' for highlighting clusters by color. 
+Showlegend: False
+
+
+#A parameter value controlling the coarseness of the clustering. Higher values lead to more clusters
+Resolution: 2.7
+
+
+#Shows the number of neighbor inclusions that were used to construct the neighbor graph.
+n_neighbors: 10
