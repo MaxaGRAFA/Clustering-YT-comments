@@ -20,7 +20,7 @@ with open('config.yml', 'r') as file:
 
 class CommentsPreprocessor:
     def __init__(self, video_url: str) -> None:
-        self.model = SentenceTransformer('D:/PythonFiles/CommentsFromTwitch/model/intfloat_multilingual-e5-base')
+        self.model = SentenceTransformer('intfloat/multilingual-e5-base')
         self.video_url = video_url
 
     def start(self, comments: list) -> pd.DataFrame:
