@@ -1,5 +1,5 @@
 #Maximum number of comments (minimum value is ~40)
-Max_Comments: 150
+Max_Comments: 200
 
 
 #Maximum number of threads(the more, the faster the code will execute)
